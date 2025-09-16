@@ -15,6 +15,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 body {
@@ -258,8 +259,9 @@ body {
 }
 
 /* || Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   body {
+    width: 100%;
     gap: 20px;
     padding: 15px;
   }
