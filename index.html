@@ -13,6 +13,24 @@
     <title>Typing Speed Test</title>
   </head>
   <body>
+    <div class="choose-level">
+        <h2>Choose Your Level</h2>
+        <div class="levels">
+            <div class="easy">
+                <input type="radio" name="level" id="easy" value="easy">
+                <label for="easy">Easy</label>
+            </div>
+            <div class="medium">
+                <input type="radio" name="level" id="medium" value="medium" checked>
+                <label for="medium">Medium</label>
+            </div>
+            <div class="hard">
+                <input type="radio" name="level" id="hard" value="hard">
+                <label for="hard">Hard</label>
+            </div>
+        </div>
+        <div class="start">Start Playing</div>
+    </div>
     <div class="game">
       <div class="name">
         <h1>Typing Speed Challenge</h1>
@@ -23,7 +41,6 @@
             <span class="level"></span> Level & You Have
             <span class="seconds"></span> Seconds To Type The Word
             </div>
-            <div class="start">Start Playing</div>
             <div class="the-word"></div>
             <input type="text" class="input" />
             <div class="upcoming-words"></div>
