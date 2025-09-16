@@ -256,3 +256,32 @@ body {
   border: none;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
+/* || Responsiveness */
+@media (max-width: 600px) {
+  body {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  /* Level Chooser adjustments */
+  .levels {
+    flex-direction: column;
+    align-items: stretch; /* Make buttons take full width */
+  }
+
+  .choose-level,
+  .container {
+    padding: 20px;
+  }
+
+  /* Game view adjustments */
+  .name h1 {
+    font-size: 2rem;
+  }
+
+  .the-word {
+    font-size: 1.8rem;
+    word-break: break-all;
+  }
+}
